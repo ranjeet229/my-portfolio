@@ -3,7 +3,7 @@ import type { ReactNode } from 'react';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Ranjeet Kumar | Software Engineer',
+  title: 'Portfolio | Ranjeet Kumar',
   description: 'Portfolio of Ranjeet Kumar — Full-Stack Developer building real-time and AI-powered experiences.',
   keywords: ['Ranjeet Kumar', 'Software Engineer', 'Full Stack Developer', 'Next.js'],
 };
