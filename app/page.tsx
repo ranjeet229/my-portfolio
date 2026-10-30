@@ -13,7 +13,10 @@ const skills = [
   ['Tools & AI', 'Git · GitHub · Postman · Docker · Figma · Cursor · Copilot · LLM Integration · TensorFlow.js'],
 ];
 
-const projectLinks: Record<string, { code: string; live: string }> = {
+const projectLinks: Record<string, { code: string; live?: string }> = {
+  'Evidence RAG': { code: 'https://github.com/ranjeet229/Evidence-RAG', live: 'https://evidence-rag-weld.vercel.app/' },
+  'ReviewMate': { code: 'https://github.com/ranjeet229/Agentic-code-review' },
+  'AI Interview Preparation': { code: 'https://github.com/ranjeet229/trao', live: 'https://trao-readyroom.onrender.com/login' },
   'Nest Marketplace': { code: 'https://github.com/ranjeet229/Nest-', live: 'https://nest-eight-pi.vercel.app/' },
   'NEXUS-OS': { code: 'https://github.com/ranjeet229/Nexus', live: 'https://nexus-alpha-eosin.vercel.app/' },
   'CanvasQuill': { code: 'https://github.com/ranjeet229/Realtime-Whiteboard-Application', live: 'https://canvasapp-beryl.vercel.app/' },
@@ -22,6 +25,9 @@ const projectLinks: Record<string, { code: string; live: string }> = {
   'Auto Job Form Filler': { code: 'https://github.com/ranjeet229/Auto-Job-Form-Filler', live: 'https://drive.google.com/file/d/1kG6s84ypXgAd1ckuQYFq2RrZUM3sJoH0/view' },
 };
 const projects: [string, string, string, string, string[], string][] = [
+  ['Evidence RAG', 'Document intelligence with evidence-backed answers', 'A document question-answering system that uses retrieval-augmented generation, embeddings, and semantic search to deliver accurate answers with source citations.', 'Python · FastAPI · RAG · LLM · Vector Database', ['Semantic document search', 'Evidence-backed responses', 'Source citations'], 'violet'],
+  ['ReviewMate', 'Agentic code review system', 'An AI-powered code review system that analyzes code changes with specialized agents to identify bugs, security issues, and code quality concerns, producing structured and actionable feedback for GitHub workflows.', 'Python · Gemini API · Pytest · Ruff · Pydantic', ['Specialized review agents', 'Security & bug detection', 'Structured review feedback'], 'cyan'],
+  ['AI Interview Preparation', 'Personalized interview preparation platform', 'An AI-powered interview preparation platform that generates personalized preparation kits from job descriptions and company URLs, with editable questions, flashcards, and practice history.', 'Next.js · React · Express.js · MongoDB · LLM', ['Personalized preparation kits', 'Editable questions & flashcards', 'Practice history'], 'green'],
   ['Nest Marketplace', 'Full-stack fashion and lifestyle storefront', 'An e-commerce website: a responsive React storefront with an Express API and MongoDB persistence, built around a complete, approachable shopping journey.', 'React · Express · MongoDB · Razorpay · Google Identity Services', ['Search, filters & sorting', 'Bag, wishlist & checkout', 'Verified payments & order history'], 'green'],
   ['NEXUS-OS', 'Personal productivity and life management system', 'An intelligent workspace for tasks, plans, reminders, workflows, and personal information.', 'Next.js · TypeScript · Node.js · MongoDB · JWT', ['Unified dashboard', 'AI contextual assistant', 'Personalized workflows'], 'cyan'],
   ['CanvasQuill', 'Real-time collaborative whiteboard platform', 'Private spaces where teams draw, write, and work together in real time.', 'React · Socket.IO · Canvas API · Quill · MongoDB', ['Multi-user drawing', 'Private rooms', 'Presence & history'], 'violet'],

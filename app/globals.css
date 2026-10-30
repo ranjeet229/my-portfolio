@@ -15,6 +15,9 @@ body { margin: 0; background: #0b1120; color: #dbeafe; font-family: Inter, ui-sa
 .muted { color: #94a3b8; line-height: 1.75; }
 .glow { box-shadow: 0 0 55px rgba(56,189,248,.13); }
 
+/* Projects without a deployed version expose their source only. */
+#projects a.text-sky-300:not([href]) { display: none; }
+
 /* Contact-form feedback is displayed as a floating toast, not inline content. */
 [role="status"], [role="alert"] {
   position: fixed;
